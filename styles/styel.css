@@ -291,7 +291,32 @@ footer{
     .experience-btn {
         margin-top: 0px;
     }
+    /* some fact boxces */
+    .some-fact-content{
+        margin: 20px;
+    }
+    .some-fact-boxes{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .some-fact-box{
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    /* our sponpsor design */
+    .our-sponspors-logo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 25px;
+    }
 
+    /* footer design style */
+    footer{
+        width: 500px;
+    }
+    
 }
 
 
@@ -331,5 +356,31 @@ footer{
 
     .experience-btn {
         margin-top: 0px;
+    }
+    /* some fact boxces */
+    .some-fact-content{
+        margin: 20px;
+    }
+    .some-fact-boxes{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .some-fact-box{
+        width: 350px;
+        height: 350px;
+        margin: 0 auto;
+    }
+    /* our sponpsor design */
+    .our-sponspors-logo{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 25px;
+    }
+
+    /* footer design style */
+    footer{
+        width: 600px;
     }
 }
